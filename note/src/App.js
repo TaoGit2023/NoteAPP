@@ -1,11 +1,11 @@
 
 import './App.css';
 import Notes from './components/Notes/Notes';
-import bg from './components/Notes/note_bg.jpeg'
 
 function App() {
   return (
-    <div style = {{backgroundImage:`url(${bg})`}} className="bg-cover bg-center h-screen p-20">
+    <div className=" max-w-[960px] px-4 min-h-screen mx-auto">
+      <h1 className='text-white text-4xl my-10'>Hello Notes</h1>
       <Notes />
     </div>
   );
